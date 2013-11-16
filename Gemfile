@@ -11,7 +11,7 @@ gem 'pg'
 gem 'sass-rails', '~> 4.0.0'
 gem 'slim-rails'
 gem 'autoprefixer-rails'
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
 gem "twitter-bootstrap-rails"
 
 # Use Uglifier as compressor for JavaScript assets
