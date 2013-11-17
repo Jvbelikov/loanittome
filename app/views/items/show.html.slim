@@ -4,6 +4,12 @@ p
   strong Title:
   = @item.title
 p
+	strong Image;
+	= image_tag @item.photo.url(:medium)
+p
+  strong Category:
+  = @item.category_name
+p
   strong Description:
   = @item.description
 p

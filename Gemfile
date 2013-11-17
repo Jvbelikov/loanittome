@@ -13,6 +13,7 @@ gem 'slim-rails'
 gem 'autoprefixer-rails'
 gem 'rails_12factor', group: :production
 gem "twitter-bootstrap-rails"
+gem "paperclip", "~> 3.0"
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
